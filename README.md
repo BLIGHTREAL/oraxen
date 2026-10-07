@@ -2,7 +2,7 @@
   <br>
   <img src="assets/logo.png" alt="Oraxen Logo" width="64">
   <br>
-  Oraxen
+  Oraxen 
   <br>
 </h1>
 
