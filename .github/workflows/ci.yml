@@ -59,10 +59,10 @@ jobs:
         run: chmod +x gradlew
 
       - name: Run tests
-        run: ./gradlew shadowJar -x test
+        run: ./gradlew build -x test
         
       - name: Upload compiled JAR
         uses: actions/upload-artifact@v4
         with:
           name: Oraxen-Plugin
-          path: build/libs/*
+          path: build/libs/*.jar
